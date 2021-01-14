@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.card-image{
+    height: 300px;
+    width: 500px;
+   
+}
+.card-box{
+width: 27em;
+text-align: center;
+margin: 1em auto;
+
+}
+
+.title{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: monospace;
+    color: #3f87a6;
+    background-color: #bcd2db;
+
+}
+.hedding{
+    padding: 2em !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: monospace;
+    color: #3f87a6;
+}
+.card-box:hover{
+    background-color: #000000;
+    transform: scale(1.05);
+}
+

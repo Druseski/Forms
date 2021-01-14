@@ -1,0 +1,28 @@
+.hedding{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: monospace;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    color: #3f87a6;
+}
+body {
+    background-color: rgb(245, 214, 175) !important;
+    height: 100vh;
+}
+
+.wrapper{
+    margin: 10% auto;
+    width: 900px !important;
+    background-color: #131811;
+    border-radius: 10px;
+    padding: 0 !important;
+
+
+}
+
+.image {
+    width: 32em;
+    height: 34em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
