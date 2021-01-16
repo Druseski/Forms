@@ -21,4 +21,91 @@
     position: relative;
     top: 250px;
     left: 40%;
+    text-align: center;
+}
+
+.footer p {
+    border-top: 1px solid white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+.footer p a{
+    color: white;
+    border-bottom: 1px dotted white;
+}
+
+.header{
+    color: white;
+    font-family: -webkit-pictograph;
+    margin-top: 3em;
+    margin-left: 20%;
+}
+.header h1{
+    font-size: 35px;
+}
+.p-header{
+    color: white;
+    margin-left: 12%;
+    width: 1000px;
+    font-size: 15px;
+    margin-top: 1em;
+}
+
+.p-header p a{
+    color: white;
+    border-bottom: 1px dotted white;
+}
+.register{
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 15px;
+    font-family: -webkit-pictograph;
+}
+.register span{
+    color: #c7c7c7;
+}
+
+.input{
+    margin-bottom:1.5em;
+    width: 91%;
+    padding: 6px 0 6px 16px;
+    border: none;
+    border-radius: 5px;
+}
+#textarea{
+    width: 91%;
+    height: 124%;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 0 0 15px;
+}
+.button-wrap{
+    margin-top: 10%;
+    margin-left: 27%;
+}
+
+.button{
+    padding: 8px 25px;
+    background-color: #59ddf7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon{
+    font-size: 30px;
+    color: white;
+}
+
+.side-text{
+    font-size: 14px;
+    color: white;
+}
+
+.side-text h3{
+    font-size: 23px;
 }

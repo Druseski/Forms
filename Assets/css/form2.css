@@ -26,3 +26,36 @@ body {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.form {
+    width: 90%;
+    height: 50px;
+    margin: 0.7em;
+    
+}
+
+.input{
+    
+    width: 85%;
+    height: 100%;
+    outline: none;
+    background-color:  #1e201d;
+    border: none;
+    border-bottom: 1px solid rgb(156, 155, 155);
+    color:  white;
+}
+.headinig{
+    color: white;
+    padding: 3em 0 0 0.7em;;
+}
+
+.button{
+    padding: 8px 30px;
+    color: white;
+    background-color: rgb(99, 205, 50);
+    border-radius: 30px;
+    border: none;
+    font-size: 18x;
+    margin-top: 10px;
+}
+

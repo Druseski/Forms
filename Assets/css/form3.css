@@ -1,28 +1,119 @@
-.hedding{
+.hedding {
     font-weight: bold;
     font-size: 24px;
     font-family: monospace;
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     color: #3f87a6;
 }
+
 body {
     background-color: rgb(245, 214, 175) !important;
     height: 100vh;
 }
 
-.wrapper{
+.wrapper {
     margin: 10% auto;
-    width: 900px !important;
+    width: 950px !important;
     background-color: #131811;
     border-radius: 10px;
     padding: 0 !important;
+    height: 600px;
 
 
 }
 
 .image {
-    width: 32em;
-    height: 34em;
+    width: 34em;
+    height: 600px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.header {
+    font-size: 21px;
+    color:rgb(231, 228, 231);
+    font-weight: 800;
+    padding: 2em 0.5em 2em 0.5em;
+
+}
+
+.input {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #131811;
+    color: rgb(231, 228, 231);
+    width: 85%;
+    margin: 1em 0.5em 1em 0.5em;
+    border: none;
+    border-bottom: 2px solid rgb(231, 228, 231);
+}
+
+.header-small {
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-size: 15px;
+    color:  rgb(231, 228, 231);
+    margin-bottom: 1em;
+
+}
+
+.number {
+    
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 38px;
+    background-color: white;
+    color: rgb(119, 115, 119);
+    border-radius: 50%;
+    
+    
+    
+}
+.number:hover{
+    background-color: black;
+    color: rgb(231, 228, 231);
+}
+.box-number{
+    
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;  
+    float: left; 
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    margin-left: 0.5em;
+}
+.box-number:hover{
+
+   width: 100px;
+   height: 45px;
+   background-color:rgb(212, 148, 95) ;
+   border-radius: 20px;
+   line-height: 45px;
+
+}
+
+.botton{
+    text-align: center;
+    padding: 1em 2em;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(212, 148, 95);
+    color:  rgb(231, 228, 231);
+    margin-top: 3em;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}
+
+.footer{
+    color: rgb(212, 148, 95) ;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
